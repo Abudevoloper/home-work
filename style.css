@@ -37,3 +37,20 @@ font-family: sans-serif;
 color:#7cc835;
 cursor:pointer;
 }
+.row {
+    padding-left: 90px;
+    padding-right: 50px;
+}
+img.card-img-top{
+    height: 250px;
+  
+}
+.card-body{
+text-align: center;
+
+}
+.col{
+    display: flex;
+    justify-items: center;
+
+}
