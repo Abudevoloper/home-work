@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    height:1500px;
+    
+}
+
+
+.navbar ul li {
+   display: flex;
+   justify-content: end;
+    font-family: sans-serif;
+    width:95%;
+    flex-wrap: nowrap;
+   
+}
+.navbar ul li a{
+    color: #000;
+    padding:15px;
+    font-size:large;
+    text-decoration: none;
+   
+}
+ h1{
+     position: relative;
+     left:20px;
+     padding:8px;
+     border-radius: 100%;
+     background-color: #7cc835;
+   
+ }
+#navbarSupportedContent ul li a{
+color:#000;
+font-family: sans-serif;
+}
+#navbarSupportedContent ul li a:hover{
+color:#7cc835;
+cursor:pointer;
+}
