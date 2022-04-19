@@ -72,10 +72,11 @@ img.card-img-top {
 }
 
 .container-box .box {
+    
     position: relative;
     width: calc(400px - 30px);
     height: calc(250px - 30px);
-    background: #302ead;
+    background: #3f3ced;
     float: left;
     margin: 15px;
     box-sizing: border-box;
@@ -92,6 +93,7 @@ img.card-img-top {
     height: 100%;
     transition: 0.5s ease-in-out;
     z-index: 1;
+    background: #360bd3;
 
 }
 
@@ -102,11 +104,12 @@ img.card-img-top {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    background: #360bd3;
 
 
 }
 
-.container-box .box .icon .fa-brands  {
+.container-box .box .icon .fa-brands {
     position: absolute;
     color: #fff;
     top: 50%;
@@ -115,6 +118,7 @@ img.card-img-top {
     font-size: 80px;
     transition: 0.5s;
 }
+
 .container-box .box .icon .fa-solid {
     position: absolute;
     color: #0bca11;
@@ -135,15 +139,16 @@ img.card-img-top {
     color: #fff;
     text-align: center;
     height: calc(-100% - 100px);
-    box-sizing:content-box;
+    box-sizing: content-box;
     padding: 20px;
     transition: 1s;
-    top:100%;
-opacity:0;
+    top: 100%;
+    opacity: 0;
 }
-.container-box .box:hover .content{
-    top:100px;
-    opacity:1;
+
+.container-box .box:hover .content {
+    top: 100px;
+    opacity: 1;
 }
 
 
@@ -156,32 +161,31 @@ opacity:0;
     text-decoration: none;
 }
 
-.container-box .box .content h3 a:hover {
-    color: red;
-
-}
 
 .container-box .box .content h3 p {
     transition: 0.5s;
-    margin:0;
-    padding:0;
-
+    margin: 0;
+    padding: 0;
+margin: auto;
 
 }
-.container-box .box:nth-child(2) .icon{
+
+.container-box .box:nth-child(2) .icon {
     background: yellow;
 }
-.container-box .box .icon .fa-brands:nth-child(3){
-    color:rgb(0, 51, 255);
-} 
-.container-box .box:nth-child(3) .icon{
-    background:  #dc2525;
+
+.container-box .box .icon .fa-brands:nth-child(3) {
+    color: red;
 }
+
+.container-box .box:nth-child(3) .icon {
+    background: #dc2525;
+}
+
 .container-box .box:nth-child(2) {
     background: #0bca11;
 }
+
 .container-box .box:nth-child(3) {
-    background: #ba47a5;
+    background: #0b030a;
 }
-
-
