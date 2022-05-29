@@ -48,7 +48,7 @@ h1 {
 }
 
 img.card-img-top {
-    height: 250px;
+    height: 200px;
 
 }
 
@@ -60,6 +60,7 @@ img.card-img-top {
 .col {
     display: flex;
     justify-items: center;
+    
 
 }
 
